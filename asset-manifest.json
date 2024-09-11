@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/proyecto-react/static/css/main.e234e7e5.css",
-    "main.js": "/proyecto-react/static/js/main.b549214e.js",
+    "main.js": "/proyecto-react/static/js/main.560a4856.js",
     "static/media/brick-wall-1850095_1920.jpg": "/proyecto-react/static/media/brick-wall-1850095_1920.2b97f5c734e9174e23d3.jpg",
     "static/media/house-1867187_1920.jpg": "/proyecto-react/static/media/house-1867187_1920.c1e5633e496b6f0d35c1.jpg",
     "static/media/img4.jpg": "/proyecto-react/static/media/img4.685075a40f37a70db906.jpg",
@@ -9,10 +9,10 @@
     "static/media/img2.jpg": "/proyecto-react/static/media/img2.bbd5d240ad90f5cb12dd.jpg",
     "index.html": "/proyecto-react/index.html",
     "main.e234e7e5.css.map": "/proyecto-react/static/css/main.e234e7e5.css.map",
-    "main.b549214e.js.map": "/proyecto-react/static/js/main.b549214e.js.map"
+    "main.560a4856.js.map": "/proyecto-react/static/js/main.560a4856.js.map"
   },
   "entrypoints": [
     "static/css/main.e234e7e5.css",
-    "static/js/main.b549214e.js"
+    "static/js/main.560a4856.js"
   ]
 }
