@@ -1,0 +1,87 @@
+.home-cont{
+    width: 100%;
+    height: 90vh;
+    background:linear-gradient(to right, #0c426396, #799cb667), url(../../img/house-1867187_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.home-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.home-text p{
+    color: white;
+    font-size: 20px;
+}
+
+.home-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-btn button{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;  
+}
+
+.home-btn button:hover{
+    background-color: rgb(75, 137, 230);
+    transition: 0.4s;
+}
+
+.home-btn button a{
+    text-decoration: none;
+    color: rgb(0, 110, 255);   
+    font-size: 16px;
+    font-weight: 400;   
+}
+
+.home-btn button a:hover{
+    color: white;
+    transition: 0.4s; 
+}
+
+/* Mobile Styles */
+@media (max-width: 780px) {
+    .home-cont{
+        width: 100%;
+        height: 70vh;
+        
+    
+    }
+    
+    .home-text h1{
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        font-weight: 400;
+    }
+    
+    .home-text p{
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        padding: 0 50px;
+    }
+}

@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    align-items: center; /* Alinear verticalmente */
+    background-color: #f8f9fa;
+    padding: 10px 30px;
+    position: relative;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding-right: 4%;
+  }
+  
+  .navbar-logo .icon {
+    margin-right: 8px;
+    font-size: 30px;
+    color: #3f5dc0;
+  }
+  
+  /* Estilo para el menú de navegación */
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin: 0 15px;
+  }
+  
+  .navbar-menu li a {
+    text-decoration: none;
+    color: #3f5dc0;
+    font-size: 18px;
+  }
+  
+  /* Estilo para la hamburguesa */
+  .navbar-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 780px) {
+    .navbar-menu {
+      display: none; /* Esconde el menú por defecto en móviles */
+      flex-direction: column; /* Para que el menú se muestre verticalmente */
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #f8f9fa;
+    }
+  
+    .navbar-menu.show {
+      display: flex;
+    }
+  
+    .navbar-menu li {
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    .navbar-toggle {
+      display: block; /* Mostrar el botón de hamburguesa en móviles */
+    }
+  }
+  
